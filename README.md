@@ -25,3 +25,13 @@ If you find this code useful in your research, please consider citing:
 ```
 T. L. Dinh, S.-G. Kwon, S.-H. Lee, and K.-R. Kwon, “Breast Tumor Cell Nuclei Segmentation in Histopathology Images using EfficientUnet++ and Multi-organ Transfer Learning,” Journal of Korea Multimedia Society , vol. 24, no. 8, pp. 1000–1011, Aug. 2021.
 ```
+
+
+
+    @inproceedings{plummerCITE2018,
+	Author = {Bryan A. Plummer and Paige Kordas and M. Hadi Kiapour and Shuai Zheng and Robinson Piramuthu and Svetlana Lazebnik},
+	Title = {Conditional Image-Text Embedding Networks},
+	Booktitle  = {The European Conference on Computer Vision (ECCV)},
+	Year = {2018}
+    }
+
