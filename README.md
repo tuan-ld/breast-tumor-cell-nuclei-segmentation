@@ -15,6 +15,7 @@ In recent years, using Deep Learning methods to apply for medical and biomedical
 ![alt text](https://github.com/tuan-ld/breast-tumor-cell-nuclei-segmentation/blob/main/media-sources/output-predicted-mask-1.png)
 ### Citation
 If you find this code useful in your research, please consider citing:
+
     @article{efficientunet++,
 	Author = {T. L. Dinh, S.-G. Kwon, S.-H. Lee, and K.-R. Kwon},
 	Title = {Breast Tumor Cell Nuclei Segmentation in Histopathology Images using EfficientUnet++ and Multi-organ Transfer Learning},
