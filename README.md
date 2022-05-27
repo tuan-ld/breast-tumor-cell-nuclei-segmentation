@@ -3,30 +3,39 @@ This repository contains source code for KMMS paper :
 
 ## Breast Tumor Cell Nuclei Segmentation in Histopathology Images using EfficientUnet++ and Multi-organ Transfer Learning
 
-Paper link: http://www.koreascience.or.kr/article/JAKO202125761193585.pdf
+Paper link: https://www.mdpi.com/2076-3417/12/10/4861
 
 ### Abstract
-In recent years, using Deep Learning methods to apply for medical and biomedical image analysis has seen many advancements. In clinical, using Deep Learning-based approaches for cancer image analysis is one of the key applications for cancer detection and treatment. However, the scarcity and shortage of labeling images make the task of cancer detection and analysis difficult to reach high accuracy. In 2015, the Unet model was introduced and gained much attention from researchers in the field. The success of Unet model is the ability to produce high accuracy with very few input images. Since the development of Unet, there are many variants and modifications of Unet related architecture. This paper proposes a new approach of using Unet++ with pretrained EfficientNet as backbone architecture for breast tumor cell nuclei segmentation and uses the multi-organ transfer learning approach to segment nuclei of breast tumor cells. We attempt to experiment and evaluate the performance of the network on the MonuSeg training dataset and Triple Negative Breast Cancer (TNBC) testing dataset, both are Hematoxylin and Eosin (H & E)-stained images. The results have shown that EfficientUnet++ architecture and the multi-organ transfer learning approach had outperformed other techniques and produced notable accuracy for breast tumor cell nuclei segmentation
+The coronavirus pandemic started in Wuhan, China in December 2019, and put millions of peo-ple in a difficult situation. This fatal virus spread to over 227 countries and the number of infect-ed patients increased to over 400 million cases, causing over 6 million deaths worldwide. Due to the serious consequence of this virus, it is necessary to develop a detection method that can re-spond quickly to prevent the spreading of COVID-19. Using chest X-ray images to detect COVID-19 is one of the promising techniques; however, with a large number of COVID-19 in-fected cases every day, the number of radiologists available to diagnose the chest X-ray images is not sufficient. We must have a computer aid system that helps doctors instantly and automati-cally determine COVID-19 cases. Recently, with the emergence of deep learning methods ap-plied for medical and biomedical uses, using convolutional neural net and transformer applica-tions for chest X-ray images can be a supplement for COVID-19 testing. In this paper, we attempt to classify three types of chest X-ray, which are normal, pneumonia, and COVID-19 using deep learning methods on a customized dataset. We also carry out an experiment on the COVID-19 severity assessment task using a tailored dataset. Five deep learning models were obtained to conduct our experiments: DenseNet121, ResNet50, InceptionNet, Swin Transformer, and Hybrid EfficientNet-DOLG neural networks. The results indicated that chest X-ray and deep learning could be reliable methods for supporting doctors in COVID-19 identification and severity as-sessment tasks.
 
 ### Model architecture
 
-![alt text](https://github.com/tuan-ld/breast-tumor-cell-nuclei-segmentation/blob/main/media-sources/model-architecture.png)
+![alt text](https://github.com/tuan-ld/covid-19-chest-xray-classification-severity-assessment/blob/main/media/EfficientNet-DOLG.png) 
 
 
-### Samples of dataset
-![alt text](https://github.com/tuan-ld/breast-tumor-cell-nuclei-segmentation/blob/main/media-sources/dataset.png)
+### Samples of dataset classification task
+![alt text](https://github.com/tuan-ld/covid-19-chest-xray-classification-severity-assessment/blob/main/media/covid-classification-dataset.PNG)
 
 
-### Qualitative output results
-![alt text](https://github.com/tuan-ld/breast-tumor-cell-nuclei-segmentation/blob/main/media-sources/output-predicted-mask-1.png)
+### Samples of dataset severity assessment task
+![alt text](https://github.com/tuan-ld/covid-19-chest-xray-classification-severity-assessment/blob/main/media/covid-severity-assessment-dataset.PNG)
+
+
+
+### Confusion matrix and Training history Classification task
+![alt text](https://github.com/tuan-ld/covid-19-chest-xray-classification-severity-assessment/blob/main/media/classification-confusion-matrix-training-history.PNG)
+
+
+### Confusion matrix and Training history Severity Assessment task
+![alt text](https://github.com/tuan-ld/covid-19-chest-xray-classification-severity-assessment/blob/main/media/severity-confusion-matrix-training-history.PNG)
 
 ### Citation
 If you find this code useful in your research, please consider citing:
 
     @article{efficientunet++,
-	Author = {T. L. Dinh, S.-G. Kwon, S.-H. Lee, and K.-R. Kwon},
-	Title = {Breast Tumor Cell Nuclei Segmentation in Histopathology Images using EfficientUnet++ and Multi-organ Transfer Learning},
-	Journal  = {Journal of Korea Multimedia Society},
-	Year = {2021}
+	Author = {Le Dinh, T.; Lee, S.-H.; Kwon, S.-G.; Kwon, K.-R.},
+	Title = {COVID-19 Chest X-ray Classification and Severity Assessment Using Convolutional and Transformer Neural Networks},
+	Journal  = { Applied Sciences},
+	Year = {2022}
     }
 
